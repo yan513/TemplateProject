@@ -28,5 +28,8 @@
 
 #pragma mark - alter sql
 + (NSString *)getAlterSqlWithTable:(NSString *)tableName column:(NSString *)columnName type:(NSString *)type;
-
+#pragma mark - delete table sql
++ (NSString *)getDeleteTableSqlWithTable:(NSString *)tableName;
+#pragma mark - clear table sql
++ (NSString *)getClearTableSqlWithTable:(NSString *)tableName;
 @end

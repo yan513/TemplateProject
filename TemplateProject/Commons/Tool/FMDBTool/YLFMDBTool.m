@@ -60,7 +60,7 @@ static YLFMDBTool *instance = nil;
 #pragma mark - clear
 // 删除表
 - (void)deleteTable:(NSString *)tableName {
-    NSString *sqlstr = [NSString stringWithFormat:@"DROP TABLE %@", tableName];
+    NSString *sqlstr = [YLSQLTool getDeleteTableSqlWithTable:tableName];
     [dbQueue inDatabase:^(FMDatabase * _Nonnull db) {
         if ([db open]) {
             [db executeUpdate:sqlstr];
@@ -69,7 +69,7 @@ static YLFMDBTool *instance = nil;
 }
 // 清空表
 - (void)deleteAllDataFromTable:(NSString *)tableName {
-    NSString *sqlstr = [NSString stringWithFormat:@"DELETE FROM %@", tableName];
+    NSString *sqlstr = [YLSQLTool getClearTableSqlWithTable:tableName];
     [dbQueue inDatabase:^(FMDatabase * _Nonnull db) {
         if ([db open]) {
             [db executeUpdate:sqlstr];
@@ -89,10 +89,7 @@ static YLFMDBTool *instance = nil;
     NSArray *sqlArray = [YLSQLTool getInsertDataArraySql:array inTableName:tableName];
     for (NSString *sql in sqlArray) {
         [dbQueue inDatabase:^(FMDatabase *db) {
-            BOOL result = [db executeUpdate:sql];
-            if (result == NO) {
-                NSLog(@"数据插入失败");
-            }
+            [db executeUpdate:sql];
         }];
     }
 }

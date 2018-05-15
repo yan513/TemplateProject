@@ -116,6 +116,16 @@
     return sql;
 }
 
+#pragma mark - delete table sql
++ (NSString *)getDeleteTableSqlWithTable:(NSString *)tableName {
+    return [NSString stringWithFormat:@"DROP TABLE %@", tableName];
+}
+
+#pragma mark - clear table sql
++ (NSString *)getClearTableSqlWithTable:(NSString *)tableName {
+    return [NSString stringWithFormat:@"DELETE FROM %@", tableName];
+}
+
 #pragma mark - *************** runtime
 + (NSDictionary *)modelToDictionary:(Class)cls
 {
