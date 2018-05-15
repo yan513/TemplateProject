@@ -41,4 +41,8 @@
 
 //单个文件的大小
 + (long long)fileSizeAtPath:(NSString*)filePath;
+
+//获取bundle文件路径
++ (NSString *)getBundlePath:(NSString *)sourceName type:(NSString *)type;
+
 @end

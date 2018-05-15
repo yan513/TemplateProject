@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  YLPropController.h
 //  TemplateProject
 //
-//  Created by Lin Yan on 2018/5/8.
+//  Created by Lin Yan on 2018/5/15.
 //  Copyright © 2018年 Lin Yan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YLPropController : UIViewController
 
 @end
-

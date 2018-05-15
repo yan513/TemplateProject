@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331A10BD20AAB94D005DD9FC /* YLHeroController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A10BB20AAB94D005DD9FC /* YLHeroController.m */; };
+		331A10BE20AAB94D005DD9FC /* YLHeroController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 331A10BC20AAB94D005DD9FC /* YLHeroController.xib */; };
+		331A10C220AAB965005DD9FC /* YLPropController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A10C020AAB965005DD9FC /* YLPropController.m */; };
+		331A10C320AAB965005DD9FC /* YLPropController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 331A10C120AAB965005DD9FC /* YLPropController.xib */; };
+		331A10C820AABD81005DD9FC /* YLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A10C720AABD81005DD9FC /* YLTabBarController.m */; };
+		331A10CA20AABE38005DD9FC /* TabBarImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331A10C920AABE38005DD9FC /* TabBarImage.xcassets */; };
+		331A10D020AAC2AF005DD9FC /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 331A10CF20AAC2AF005DD9FC /* Config.plist */; };
+		331A10D220AAC3E2005DD9FC /* TabBarConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 331A10D120AAC3E2005DD9FC /* TabBarConfig.plist */; };
+		331A10D720AACD1D005DD9FC /* YLSystemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A10D620AACD1D005DD9FC /* YLSystemTool.m */; };
+		331A10DE20AAD1F6005DD9FC /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 331A10DD20AAD1F6005DD9FC /* UIColor+hex.m */; };
 		3323C99A20A286CD00877117 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3323C99920A286CD00877117 /* Default-568h@2x.png */; };
 		33634ACD20A1468E006D3A5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33634ACC20A1468E006D3A5C /* AppDelegate.m */; };
-		33634AD020A1468E006D3A5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33634ACF20A1468E006D3A5C /* ViewController.m */; };
-		33634AD320A1468E006D3A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33634AD120A1468E006D3A5C /* Main.storyboard */; };
 		33634AD520A1468F006D3A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33634AD420A1468F006D3A5C /* Assets.xcassets */; };
 		33634AD820A1468F006D3A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33634AD620A1468F006D3A5C /* LaunchScreen.storyboard */; };
 		33634ADB20A1468F006D3A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33634ADA20A1468F006D3A5C /* main.m */; };
@@ -81,13 +89,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		331A10BA20AAB94D005DD9FC /* YLHeroController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLHeroController.h; sourceTree = "<group>"; };
+		331A10BB20AAB94D005DD9FC /* YLHeroController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLHeroController.m; sourceTree = "<group>"; };
+		331A10BC20AAB94D005DD9FC /* YLHeroController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLHeroController.xib; sourceTree = "<group>"; };
+		331A10BF20AAB965005DD9FC /* YLPropController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLPropController.h; sourceTree = "<group>"; };
+		331A10C020AAB965005DD9FC /* YLPropController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLPropController.m; sourceTree = "<group>"; };
+		331A10C120AAB965005DD9FC /* YLPropController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YLPropController.xib; sourceTree = "<group>"; };
+		331A10C620AABD81005DD9FC /* YLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBarController.h; sourceTree = "<group>"; };
+		331A10C720AABD81005DD9FC /* YLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBarController.m; sourceTree = "<group>"; };
+		331A10C920AABE38005DD9FC /* TabBarImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBarImage.xcassets; sourceTree = "<group>"; };
+		331A10CF20AAC2AF005DD9FC /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		331A10D120AAC3E2005DD9FC /* TabBarConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TabBarConfig.plist; sourceTree = "<group>"; };
+		331A10D520AACD1D005DD9FC /* YLSystemTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSystemTool.h; sourceTree = "<group>"; };
+		331A10D620AACD1D005DD9FC /* YLSystemTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSystemTool.m; sourceTree = "<group>"; };
+		331A10DC20AAD1F6005DD9FC /* UIColor+hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		331A10DD20AAD1F6005DD9FC /* UIColor+hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
 		3323C99920A286CD00877117 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		33634AC820A1468E006D3A5C /* TemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33634ACB20A1468E006D3A5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33634ACC20A1468E006D3A5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33634ACE20A1468E006D3A5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33634ACF20A1468E006D3A5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		33634AD220A1468E006D3A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33634AD420A1468F006D3A5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33634AD720A1468F006D3A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33634AD920A1468F006D3A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -217,6 +237,184 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		331A10A720AAB5D1005DD9FC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				331A10B620AAB846005DD9FC /* Tabbar */,
+				331A10A820AAB846005DD9FC /* Hero */,
+				331A10AF20AAB846005DD9FC /* Prop */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		331A10A820AAB846005DD9FC /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				331A10A920AAB846005DD9FC /* DataSource */,
+				331A10AA20AAB846005DD9FC /* Business */,
+				331A10AB20AAB846005DD9FC /* Controller */,
+				331A10AD20AAB846005DD9FC /* Model */,
+				331A10AE20AAB846005DD9FC /* View */,
+				331A10CD20AAC268005DD9FC /* Resource */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		331A10A920AAB846005DD9FC /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		331A10AA20AAB846005DD9FC /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		331A10AB20AAB846005DD9FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				331A10BA20AAB94D005DD9FC /* YLHeroController.h */,
+				331A10BB20AAB94D005DD9FC /* YLHeroController.m */,
+				331A10BC20AAB94D005DD9FC /* YLHeroController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		331A10AD20AAB846005DD9FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		331A10AE20AAB846005DD9FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		331A10AF20AAB846005DD9FC /* Prop */ = {
+			isa = PBXGroup;
+			children = (
+				331A10B020AAB846005DD9FC /* DataSource */,
+				331A10B120AAB846005DD9FC /* Business */,
+				331A10B220AAB846005DD9FC /* Controller */,
+				331A10B420AAB846005DD9FC /* Model */,
+				331A10B520AAB846005DD9FC /* View */,
+				331A10CE20AAC285005DD9FC /* Resource */,
+			);
+			path = Prop;
+			sourceTree = "<group>";
+		};
+		331A10B020AAB846005DD9FC /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		331A10B120AAB846005DD9FC /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		331A10B220AAB846005DD9FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				331A10BF20AAB965005DD9FC /* YLPropController.h */,
+				331A10C020AAB965005DD9FC /* YLPropController.m */,
+				331A10C120AAB965005DD9FC /* YLPropController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		331A10B420AAB846005DD9FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		331A10B520AAB846005DD9FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		331A10B620AAB846005DD9FC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				331A10C520AABD81005DD9FC /* Controller */,
+				331A10C420AABD81005DD9FC /* Resource */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		331A10C420AABD81005DD9FC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				331A10C920AABE38005DD9FC /* TabBarImage.xcassets */,
+				331A10D120AAC3E2005DD9FC /* TabBarConfig.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		331A10C520AABD81005DD9FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				331A10C620AABD81005DD9FC /* YLTabBarController.h */,
+				331A10C720AABD81005DD9FC /* YLTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		331A10CD20AAC268005DD9FC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		331A10CE20AAC285005DD9FC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		331A10D320AACA37005DD9FC /* Route */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		331A10D420AACD0B005DD9FC /* SystemTool */ = {
+			isa = PBXGroup;
+			children = (
+				331A10D520AACD1D005DD9FC /* YLSystemTool.h */,
+				331A10D620AACD1D005DD9FC /* YLSystemTool.m */,
+			);
+			path = SystemTool;
+			sourceTree = "<group>";
+		};
+		331A10DB20AAD1E1005DD9FC /* UIColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				331A10DC20AAD1F6005DD9FC /* UIColor+hex.h */,
+				331A10DD20AAD1F6005DD9FC /* UIColor+hex.m */,
+			);
+			path = UIColorCategory;
+			sourceTree = "<group>";
+		};
 		33634ABF20A1468E006D3A5C = {
 			isa = PBXGroup;
 			children = (
@@ -243,13 +441,12 @@
 			children = (
 				33634ACB20A1468E006D3A5C /* AppDelegate.h */,
 				33634ACC20A1468E006D3A5C /* AppDelegate.m */,
+				331A10A720AAB5D1005DD9FC /* Class */,
 				33634AFD20A14768006D3A5C /* Commons */,
-				33634ACE20A1468E006D3A5C /* ViewController.h */,
-				33634ACF20A1468E006D3A5C /* ViewController.m */,
-				33634AD120A1468E006D3A5C /* Main.storyboard */,
 				33634AD420A1468F006D3A5C /* Assets.xcassets */,
 				33634AD620A1468F006D3A5C /* LaunchScreen.storyboard */,
 				33634AD920A1468F006D3A5C /* Info.plist */,
+				331A10CF20AAC2AF005DD9FC /* Config.plist */,
 				33634ADA20A1468F006D3A5C /* main.m */,
 			);
 			path = TemplateProject;
@@ -278,6 +475,7 @@
 			children = (
 				33634B0920A147DB006D3A5C /* Library */,
 				33634AFF20A14768006D3A5C /* Category */,
+				331A10D320AACA37005DD9FC /* Route */,
 				33634B0020A14768006D3A5C /* Network */,
 				33634B0220A14768006D3A5C /* Tool */,
 			);
@@ -290,6 +488,7 @@
 				33EEFDDB20A1730400D10B0F /* NSDateCategory */,
 				33EEFDD020A16C7A00D10B0F /* NSStringCategory */,
 				33EEFDCF20A16C7A00D10B0F /* UIImageCategory */,
+				331A10DB20AAD1E1005DD9FC /* UIColorCategory */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -313,6 +512,7 @@
 				33EEFDB720A169AC00D10B0F /* DeviceTool */,
 				33EEFDB320A14EAE00D10B0F /* FileTool */,
 				33EEFD6C20A14AAA00D10B0F /* FMDBTool */,
+				331A10D420AACD0B005DD9FC /* SystemTool */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -615,9 +815,13 @@
 				33EEFDCE20A16B5F00D10B0F /* SVProgressHUD.bundle in Resources */,
 				33634AD820A1468F006D3A5C /* LaunchScreen.storyboard in Resources */,
 				33634AD520A1468F006D3A5C /* Assets.xcassets in Resources */,
+				331A10CA20AABE38005DD9FC /* TabBarImage.xcassets in Resources */,
 				33EEFDB220A14E7900D10B0F /* Info.plist in Resources */,
 				3323C99A20A286CD00877117 /* Default-568h@2x.png in Resources */,
-				33634AD320A1468E006D3A5C /* Main.storyboard in Resources */,
+				331A10BE20AAB94D005DD9FC /* YLHeroController.xib in Resources */,
+				331A10D220AAC3E2005DD9FC /* TabBarConfig.plist in Resources */,
+				331A10D020AAC2AF005DD9FC /* Config.plist in Resources */,
+				331A10C320AAB965005DD9FC /* YLPropController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +846,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331A10DE20AAD1F6005DD9FC /* UIColor+hex.m in Sources */,
 				33EEFD8D20A14B6200D10B0F /* NSObject+MJCoding.m in Sources */,
 				33EEFD9220A14B6200D10B0F /* MJPropertyKey.m in Sources */,
 				33EEFDCB20A16B5F00D10B0F /* SVProgressAnimatedView.m in Sources */,
@@ -652,13 +857,14 @@
 				33EEFDE820A17D7E00D10B0F /* YLCacheTool.m in Sources */,
 				33EEFDCC20A16B5F00D10B0F /* SVProgressHUD.m in Sources */,
 				33EEFD6920A1499500D10B0F /* AFURLRequestSerialization.m in Sources */,
-				33634AD020A1468E006D3A5C /* ViewController.m in Sources */,
 				33EEFDAE20A14E7900D10B0F /* FMDatabaseAdditions.m in Sources */,
 				33EEFD6A20A1499500D10B0F /* AFNetworkReachabilityManager.m in Sources */,
 				33EEFD8C20A14B6200D10B0F /* MJProperty.m in Sources */,
 				33EEFD6820A1499500D10B0F /* AFURLSessionManager.m in Sources */,
 				33EEFDF220A17DEC00D10B0F /* YYDiskCache.m in Sources */,
 				33634B0720A147AA006D3A5C /* YLNetworkBaseViewModel.m in Sources */,
+				331A10C820AABD81005DD9FC /* YLTabBarController.m in Sources */,
+				331A10D720AACD1D005DD9FC /* YLSystemTool.m in Sources */,
 				33EEFD8A20A14B6200D10B0F /* MJPropertyType.m in Sources */,
 				33EEFDF320A17DEC00D10B0F /* YYCache.m in Sources */,
 				33EEFD9420A14B6200D10B0F /* MJFoundation.m in Sources */,
@@ -671,6 +877,8 @@
 				33EEFDAF20A14E7900D10B0F /* FMDatabase.m in Sources */,
 				33EEFDCA20A16B5F00D10B0F /* SVRadialGradientLayer.m in Sources */,
 				33EEFD6F20A14AC400D10B0F /* YLFMDBTool.m in Sources */,
+				331A10BD20AAB94D005DD9FC /* YLHeroController.m in Sources */,
+				331A10C220AAB965005DD9FC /* YLPropController.m in Sources */,
 				33EEFDD920A16EF400D10B0F /* NSString+date.m in Sources */,
 				33EEFD9020A14B6200D10B0F /* NSObject+MJClass.m in Sources */,
 				33EEFD8F20A14B6200D10B0F /* NSObject+MJProperty.m in Sources */,
@@ -722,14 +930,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		33634AD120A1468E006D3A5C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				33634AD220A1468E006D3A5C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		33634AD620A1468F006D3A5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -140,4 +140,10 @@
     }
     return folderSize; //folderSize/(1024*1024)递归时候会运算两次出错，所以返回字节。在外面再计算
 }
+
+//获取bundle文件路径
++ (NSString *)getBundlePath:(NSString *)sourceName type:(NSString *)type {
+    NSString *path = [[NSBundle mainBundle] pathForResource:sourceName ofType:type inDirectory:nil];
+    return path;
+}
 @end
